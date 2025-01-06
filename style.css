@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eae6dd;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+ 
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+    margin-left: 50%;
+}
+
+.navbar-nav {
+    margin-left: 23%;
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.nav-item .nav-link{
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: black;
+    margin: 0 10px;
+    position: relative;
+    transition: 0.2s linear;
+}
+
+.nav-item  a:hover,
+.nav-item  a:hover::before {
+    width: 100%;
+    color: #b2804e;
+    text-shadow: 0 0 15px #b2804e;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    margin-right: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #765a3f;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.2s linear;
+}
+
+.btn:hover {
+    background-color: #b07e50;
+    color: white;
+}
+
+
+/* home page */
+
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2rem;
+    line-height: 2rem;
+}
+ 
+.home-content h5{
+    font-size: 1rem;
+}
+
+.home-content h1 {
+    color: #b07e50;
+    font-size: 3rem;
+    line-height: 3rem;
+    white-space: nowrap;
+}
+
+.home-content p {
+    margin-top: 0.7em;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.btn-contact {
+    width: 140px;
+    height: 40px;
+    margin-right: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #765a3f;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.2s linear;
+}
+
+.btn-contact:hover {
+    background-color: #b07e50;
+    color: white;
+}
+
+.home-img img{
+    max-width: 53%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
