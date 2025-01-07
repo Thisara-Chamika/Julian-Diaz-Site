@@ -9,6 +9,10 @@ body{
     height: 100vh;
     position: relative;
 }
+
+.navbar {
+   background-color: #f4fcff;
+}
  
 .navbar-brand img{
     width: 70px;
@@ -25,7 +29,7 @@ body{
 .nav-item .nav-link{
     font-weight: 500;
     font-size: 0.85rem;
-    color: black;
+    color: #966535;
     margin: 0 10px;
     position: relative;
     transition: 0.2s linear;
@@ -40,7 +44,7 @@ body{
 
 .btn {
     width: 140px;
-    height: 40px;
+    height: 35px;
     margin-right: 5%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -62,6 +66,9 @@ body{
 
 /* home page */
 
+.home-page {
+    background-color: #eae6dd;
+}
 
 .home-content{
     display: flex;
@@ -123,8 +130,6 @@ body{
 
 .abt-page {
     background-color: #f4fcff;
-    width: 100%;
-    height: 100vh;
 }
 
 .abt-content {
@@ -139,6 +144,7 @@ body{
     font-size: 2.5rem;
     margin-top: 4%;
     margin-bottom: 20px;
+    margin-left: 30%;
     color: #9a6e46;
 }
 
