@@ -124,15 +124,20 @@ body{
 }
 
 .home-img img{
-    max-width: 50%;
+    max-width: 47%;
     height: auto;
     border-radius: 10px;
     margin-top: 25%;
     margin-left: 25%;
     padding-bottom: 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.home-img img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
 
 /* About page */
 
@@ -171,6 +176,12 @@ body{
     margin-top: 25%;
     margin-left: 20%;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.abt-img img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Works page */
@@ -199,6 +210,7 @@ body{
     background-color: whitesmoke;
     border: none;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .carousel-item .work-img{
@@ -270,7 +282,41 @@ body{
     line-height: 1.1rem;
 }
 
+/* Footer */
 
+.footer{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #e8eced;
+}
 
+.footer .social-links a{
+    /* display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+    width: 3rem;
+    height: 3rem;
+    /* border: 0.1rem solid black; */
+    font-size: 1.4rem;
+    /* border-radius: 50%; */
+    color: #765a3f;
+    background-color: transparent;
+    margin: 1.5rem 1.5rem 2rem 0;
+    transition: transform 0.3s, shadow 0.3s;
+}
 
+.social-links a:hover{
+    transform: translateY(-10px);
+    shadow: 0 8px 12px #b07e50;
+}
+
+.footer .copyrights {
+    color: #b2804e;
+    font-size: 0.9rem;
+    margin-left: 70%;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
 
