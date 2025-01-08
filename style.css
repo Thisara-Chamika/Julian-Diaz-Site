@@ -40,6 +40,7 @@ body{
     width: 100%;
     color: #b2804e;
     text-shadow: 0 0 15px #b2804e;
+    transform: translateY(-1px);
 }
 
 .btn {
@@ -56,11 +57,14 @@ body{
     font-size: 0.9rem;
     font-weight: 500;
     transition: 0.2s linear;
+    
 }
 
 .btn:hover {
     background-color: #b07e50;
     color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -74,7 +78,7 @@ body{
 .home-content{
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-top: 10%;
     padding: 2rem;
     line-height: 2rem;
 }
@@ -115,16 +119,18 @@ body{
 .btn-contact:hover {
     background-color: #b07e50;
     color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .home-img img{
     max-width: 50%;
     height: auto;
     border-radius: 10px;
-    margin-top: 15%;
+    margin-top: 25%;
     margin-left: 25%;
     padding-bottom: 0;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 
@@ -164,7 +170,7 @@ body{
     border-radius: 10px;
     margin-top: 25%;
     margin-left: 20%;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 /* Works page */
@@ -263,3 +269,8 @@ body{
     margin-bottom: 20px;
     line-height: 1.1rem;
 }
+
+
+
+
+
