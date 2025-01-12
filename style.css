@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #eae6dd;
     width: 100%;
     height: 100vh;
@@ -11,10 +11,10 @@ body{
 }
 
 .navbar {
-   background-color: #f4fcff;
+    background-color: #f4fcff;
 }
- 
-.navbar-brand img{
+
+.navbar-brand img {
     width: 70px;
     height: 70px;
     margin-left: 50%;
@@ -26,17 +26,17 @@ body{
     gap: 1rem;
 }
 
-.nav-item .nav-link{
-    font-weight: 500;
-    font-size: 0.85rem;
+.nav-item .nav-link {
+    font-weight: 600;
+    font-size: 0.9rem;
     color: #966535;
     margin: 0 10px;
     position: relative;
     transition: 0.2s linear;
 }
 
-.nav-item  a:hover,
-.nav-item  a:hover::before {
+.nav-item a:hover,
+.nav-item a:hover::before {
     width: 100%;
     color: #b2804e;
     text-shadow: 0 0 15px #b2804e;
@@ -55,9 +55,9 @@ body{
     border: none;
     outline: none;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.2s linear;
-    
+
 }
 
 .btn:hover {
@@ -75,21 +75,22 @@ body{
     height: 100vh;
 }
 
-.home-content{
+.home-content {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
     padding: 2rem;
     line-height: 2rem;
 }
- 
-.home-content h5{
+
+.home-content h5 {
     font-size: 1rem;
 }
 
 .home-content h1 {
     color: #b07e50;
     font-size: 3rem;
+    font-weight: 500;
     line-height: 3rem;
     white-space: nowrap;
 }
@@ -112,7 +113,7 @@ body{
     border: none;
     outline: none;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.2s linear;
 }
 
@@ -123,18 +124,23 @@ body{
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.home-img img{
-    max-width: 47%;
-    height: auto;
+.btn-contact:active {
+    background-color: white;
+    color: #000000;
+}
+
+.home-img img {
+    max-width: 50%;
+    height: 65%;
     border-radius: 10px;
     margin-top: 25%;
     margin-left: 25%;
     padding-bottom: 0;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.home-img img:hover{
+.home-img img:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -156,6 +162,7 @@ body{
 
 .abt-content h1 {
     font-size: 2.5rem;
+    font-weight: 600;
     margin-top: 4%;
     margin-bottom: 20px;
     margin-left: 20%;
@@ -166,20 +173,20 @@ body{
     margin-top: 0.7rem;
     font-size: 0.9rem;
     color: black;
-    
+
 }
 
-.abt-img img{
+.abt-img img {
     max-width: 55%;
     height: auto;
     border-radius: 10px;
-    margin-top: 25%;
+    margin-top: 20%;
     margin-left: 20%;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.abt-img img:hover{
+.abt-img img:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -192,20 +199,21 @@ body{
 
 .works h1 {
     font-size: 2.5rem;
+    font-weight: 600;
     margin-top: 3%;
     margin-bottom: 5px;
     margin-left: 40%;
     padding: 0;
     color: #9a6e46;
-} 
+}
 
-.carousel-item{
+.carousel-item {
     margin-left: 25%;
     margin-bottom: 5%;
     margin-top: 0;
 }
 
-.carousel-item .card{
+.carousel-item .card {
     height: 400px;
     background-color: whitesmoke;
     border: none;
@@ -213,7 +221,7 @@ body{
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.carousel-item .work-img{
+.carousel-item .work-img {
     width: 700px;
     height: fit-content;
     margin-top: 20%;
@@ -229,14 +237,15 @@ body{
 /* Testimiols */
 
 
-.feedback-page{
+.feedback-page {
     height: 100vh;
     background-color: #f4fcff;
-    
+
 }
 
 .feedback-page h1 {
     font-size: 2.5rem;
+    font-weight: 600;
     margin-top: 0;
     margin-bottom: 5px;
     margin-left: 40%;
@@ -263,7 +272,7 @@ body{
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.feedback-page .card img{
+.feedback-page .card img {
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -284,31 +293,26 @@ body{
 
 /* Footer */
 
-.footer{
+.footer {
     display: flex;
     width: 100%;
     height: 10vh;
     background-color: #e8eced;
 }
 
-.footer .social-links a{
-    /* display: inline-flex;
-    justify-content: center;
-    align-items: center; */
+.footer .social-links a {
     width: 3rem;
     height: 3rem;
-    /* border: 0.1rem solid black; */
     font-size: 1.4rem;
-    /* border-radius: 50%; */
     color: #765a3f;
     background-color: transparent;
     margin: 1.5rem 1.5rem 2rem 0;
     transition: transform 0.3s, shadow 0.3s;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     transform: translateY(-10px);
-    shadow: 0 8px 12px #b07e50;
+    background-color: 0 8px 12px #b07e50;
 }
 
 .footer .copyrights {
@@ -320,3 +324,111 @@ body{
     align-items: center;
 }
 
+/*----------------- media queries ----------------------------*/
+
+@media (max-width:600px) {
+    .navbar {
+        display: flex;
+    }
+
+    /* home */
+
+    .home-page {
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .home-content {
+        line-height: 1rem;
+        margin-top: 0;
+    }
+
+    /* About */
+
+    .abt-page {
+        flex-direction: column;
+        height: 130vh;
+    }
+
+    .abt-content h1 {
+        margin-top: -1.5rem;
+    }
+
+    .abt-content {
+        font-size: 1rem;
+        line-height: 1.7rem;
+
+    }
+
+    .abt-img {
+        margin-top: -20%;
+    }
+
+    /* Works */
+
+
+    .works-page {
+        height: 80vh;
+    }
+
+    .works-page h1 {
+        display: inline;
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+
+
+    .works-page .card {
+        width: 200px;
+        height: 500px;
+    }
+
+    .works-page .work-img {
+        width: 120px;
+        height: 240px;
+        margin-left: 20%;
+    }
+
+    .works-page .card-text {
+        margin-top: -25%;
+        font-size: 0.8rem;
+    }
+
+    /* Testimonials */
+
+    .feedback-page {
+        height: 155vh;
+    }
+
+    .feedback-page .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback-page h1 {
+        margin-left: 20%;
+    }
+
+    .feedback-page .card {
+        height: 350px;
+        width: 400px;
+    }
+
+    .feedback-page .card .card-text {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    /* Footer */
+
+    .footer {
+        display: flex;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .footer .container {
+        display: inline-flex;
+        flex-direction: row;
+    }
+}
